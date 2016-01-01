@@ -1,8 +1,6 @@
-'use strict';
-var test = require('ava');
-var archs = require('./');
+import test from 'ava';
+import m from './';
 
-test(function (t) {
-	t.assert(archs.indexOf(process.arch) !== -1);
-	t.end();
+test(t => {
+	t.true(m.indexOf(process.arch) !== -1);
 });
