@@ -1,4 +1,4 @@
-# archs [![Build Status](https://travis-ci.com/sindresorhus/archs.svg?branch=master)](https://travis-ci.com/sindresorhus/archs)
+# archs
 
 > List of [processor architectures](https://nodejs.org/api/process.html#process_process_arch) supported by Node
 
