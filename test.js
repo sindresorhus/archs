@@ -1,6 +1,7 @@
+import process from 'node:process';
 import test from 'ava';
-import m from './';
+import archs from './index.js';
 
-test(t => {
-	t.true(m.indexOf(process.arch) !== -1);
+test('main', t => {
+	t.true(archs.includes(process.arch));
 });

@@ -1,6 +1,6 @@
 # archs
 
-> List of [processor architectures](https://nodejs.org/api/process.html#process_process_arch) supported by Node
+> List of [processor architectures](https://nodejs.org/api/process.html#process_process_arch) supported by Node.js
 
 ## Install
 
@@ -11,7 +11,7 @@ $ npm install archs
 ## Usage
 
 ```js
-const archs = require('archs');
+import archs from 'archs';
 
 console.log(archs);
 //=> ['arm', …]
@@ -19,4 +19,4 @@ console.log(archs);
 
 ## Related
 
-See [`node-platforms`](https://github.com/sindresorhus/node-platforms) for a list of platforms supported by Node.
+See [`node-platforms`](https://github.com/sindresorhus/node-platforms) for a list of platforms supported by Node.js.

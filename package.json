@@ -1,36 +1,40 @@
 {
-  "name": "archs",
-  "version": "1.0.0",
-  "description": "List of processor architectures supported by Node",
-  "license": "MIT",
-  "repository": "sindresorhus/archs",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "node",
-    "os",
-    "arch",
-    "architecture",
-    "processor",
-    "cpu",
-    "support",
-    "supported",
-    "list",
-    "array"
-  ],
-  "devDependencies": {
-    "ava": "*"
-  }
+	"name": "archs",
+	"version": "1.0.0",
+	"description": "List of processor architectures supported by Node.js",
+	"license": "MIT",
+	"repository": "sindresorhus/archs",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"node",
+		"os",
+		"arch",
+		"architecture",
+		"processor",
+		"cpu",
+		"support",
+		"supported",
+		"list",
+		"array"
+	],
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.44.0"
+	}
 }
